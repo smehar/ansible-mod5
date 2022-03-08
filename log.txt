@@ -1,0 +1,34 @@
+ansible-playbook 2.9.25
+  config file = /home/admin/webapp/ansible.cfg
+  configured module search path = [u'/home/admin/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python2.7/site-packages/ansible
+  executable location = /bin/ansible-playbook
+  python version = 2.7.5 (default, Oct 14 2020, 14:45:30) [GCC 4.8.5 20150623 (Red Hat 4.8.5-44)]
+Using /home/admin/webapp/ansible.cfg as config file
+host_list declined parsing /home/admin/webapp/hosts.yml as it did not pass its verify_file() method
+script declined parsing /home/admin/webapp/hosts.yml as it did not pass its verify_file() method
+Parsed /home/admin/webapp/hosts.yml inventory source with yaml plugin
+Skipping callback 'actionable', as we already have a stdout callback.
+Skipping callback 'counter_enabled', as we already have a stdout callback.
+Skipping callback 'debug', as we already have a stdout callback.
+Skipping callback 'dense', as we already have a stdout callback.
+Skipping callback 'dense', as we already have a stdout callback.
+Skipping callback 'full_skip', as we already have a stdout callback.
+Skipping callback 'json', as we already have a stdout callback.
+Skipping callback 'minimal', as we already have a stdout callback.
+Skipping callback 'null', as we already have a stdout callback.
+Skipping callback 'oneline', as we already have a stdout callback.
+Skipping callback 'selective', as we already have a stdout callback.
+Skipping callback 'skippy', as we already have a stdout callback.
+Skipping callback 'stderr', as we already have a stdout callback.
+Skipping callback 'unixy', as we already have a stdout callback.
+Skipping callback 'yaml', as we already have a stdout callback.
+
+PLAYBOOK: deploy.yml ***********************************************************
+1 plays in deploy.yml
+
+PLAY [Apache installation using docker] ****************************************
+skipping: no hosts matched
+
+PLAY RECAP *********************************************************************
+
